@@ -2,6 +2,7 @@ import { CSSProperties } from "react"
 import { bebas } from "../style/fonts"
 import { colors } from "../style/colors"
 import { Button } from "./base/Button"
+import { tailwindStyles } from "../style/styles"
 
 const styles: { [key: string]: CSSProperties } = {
     container: {
@@ -20,7 +21,7 @@ const styles: { [key: string]: CSSProperties } = {
 
 export const Premiere = () => {
     return (
-        <div className="w-full md:w-3/4 flex justify-center items-center" style={styles.container}>
+        <div className={`flex justify-center items-center ${tailwindStyles.pageComponent}`} style={styles.container}>
             <div className="w-fit h-fit flex flex-col">
                 <div style={styles.subtitle}>
                     July 16th. badhuistheater, AMSTERDAM

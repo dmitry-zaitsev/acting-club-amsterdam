@@ -1,5 +1,6 @@
 import { CSSProperties } from "react"
 import { bebas } from "../style/fonts"
+import { tailwindStyles } from "../style/styles"
 
 const styles: { [key: string]: CSSProperties } = {
     container: {
@@ -10,7 +11,7 @@ const styles: { [key: string]: CSSProperties } = {
 
 export const Navbar = () => {
     return (
-        <div className={`w-full md:w-3/4 flex flex-row gap-4 justify-end items-center pe-3 ps-3 ${bebas.className}`} style={styles.container}>
+        <div className={`flex flex-row gap-4 justify-end items-center ${tailwindStyles.pageComponent} ${bebas.className}`} style={styles.container}>
             <a>
                 Productions
             </a>
