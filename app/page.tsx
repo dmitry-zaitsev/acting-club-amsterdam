@@ -13,6 +13,9 @@ export default function Home() {
         <Premiere />
         <PlayInfo />
         <WhereWhen />
+
+        <div className='h-20' />
+
         <Footer />
     </main>
   )
