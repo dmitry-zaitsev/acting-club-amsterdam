@@ -21,8 +21,14 @@ const styles: { [key: string]: CSSProperties } = {
 
 export const PlayInfo = () => {
     return (
-        <div className={`flex flex-row gap-14 ${tailwindStyles.pageComponent}`} style={styles.container}>
-            <Image src="/poster_skin_of_our_teeth.jpg" alt="Skin of our teeth" width={255} height={378} />
+        <div className={`flex flex-row flex-wrap md:flex-nowrap gap-14 ${tailwindStyles.pageComponent}`} style={styles.container}>
+            <Image
+                className="h-fit mt-2"
+                src="/poster_skin_of_our_teeth.jpg" 
+                alt="Skin of our teeth" 
+                width={255} 
+                height={378} 
+            />
 
             <div className="flex flex-col gap-2">
                 <span style={styles.title}>About the Play</span>
