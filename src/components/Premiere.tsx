@@ -7,14 +7,15 @@ import { tailwindStyles } from "../style/styles"
 const styles: { [key: string]: CSSProperties } = {
     container: {
         ...bebas.style,
-        height: 450,
+        minHeight: 450,
     },
     subtitle: {
         fontSize: 20,
     },
     title: {
         fontSize: 109,
-        lineHeight: 1.1,
+        lineHeight: 1,
+        paddingTop: 4,
         color: colors.red,
     }
 }
