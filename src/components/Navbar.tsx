@@ -36,9 +36,9 @@ export const Navbar = ({ showLogo } : NavbarProps) => {
                 Productions
             </Link>
 
-            <a>
+            <Link href="/about">
                 Who we are
-            </a>
+            </Link>
         </div>
     )
 }

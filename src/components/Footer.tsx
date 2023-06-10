@@ -3,6 +3,7 @@ import { bebas } from "../style/fonts"
 import { tailwindStyles } from "../style/styles"
 import Instagram from "./icons/Instagram"
 import Image from "next/image"
+import Link from "next/link"
 
 const styles: { [key: string]: CSSProperties } = {
     innerContainer: {
@@ -19,18 +20,20 @@ export const Footer = () => {
     return (
         <div className={`flex flex-col ${tailwindStyles.pageComponent}`}>
             <div className={`flex flew-row items-center`} style={styles.innerContainer}>
-                <Image
-                    src="Logo.svg"
-                    alt="Acting Club Amsterdam"
-                    width={72}
-                    height={37}
-                />
+                <Link href="/">
+                    <Image
+                        src="Logo.svg"
+                        alt="Acting Club Amsterdam"
+                        width={72}
+                        height={37}
+                    />
+                </Link>
 
                 <div className="flex-grow" />
 
-                <a>
+                <Link href="/about">
                     Who we are
-                </a>
+                </Link>
             </div>
 
             <div className="flex flex-row justify-end pb-2">
