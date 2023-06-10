@@ -34,14 +34,14 @@ export const AboutUs = () => {
                 bringing you more theatre and, hopefully, eventually reviving this form of art in the Netherlands.
             </p>
 
-            <Image
+            {/* <Image
                 src='/groupPhoto.jpeg'
                 alt="Acting Club Amsterdam group photo"
                 width='0'
                 height='0'
                 sizes="100vw"
                 className="w-full h-auto mt-8"
-            />
+            /> */}
 
             <div className="h-16" />
 
