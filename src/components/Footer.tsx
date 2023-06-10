@@ -1,5 +1,5 @@
 import { CSSProperties } from "react"
-import { bebas } from "../style/fonts"
+import { actor, bebas } from "../style/fonts"
 import { tailwindStyles } from "../style/styles"
 import Instagram from "./icons/Instagram"
 import Image from "next/image"
@@ -13,6 +13,11 @@ const styles: { [key: string]: CSSProperties } = {
     },
     socialIcon: {
         color: 'white',
+    },
+    designedBy: {
+        ...actor.style,
+        fontSize: 12,
+        color: '#707070'
     }
 }
 
@@ -36,7 +41,13 @@ export const Footer = () => {
                 </Link>
             </div>
 
-            <div className="flex flex-row justify-end pb-2">
+            <div className="flex flex-row pb-2 items-center">
+                <a href="https://www.instagram.com/habatelier/" style={styles.designedBy}>
+                    Designed by @habatelier
+                </a>
+
+                <div className="flex-grow" />
+
                 <a href="https://www.instagram.com/actingclubamsterdam/">
                     <Instagram size={16} />
                 </a>
