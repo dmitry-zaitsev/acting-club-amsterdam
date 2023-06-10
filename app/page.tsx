@@ -4,6 +4,7 @@ import { Premiere } from '@/src/components/Premiere'
 import { PlayInfo } from '@/src/components/PlayInfo'
 import { WhereWhen } from '@/src/components/WhereWhen'
 import { Footer } from '@/src/components/Footer'
+import { JoinNewsletter } from '@/src/components/JoinNewsletter'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Premiere />
         <PlayInfo />
         <WhereWhen />
+        <JoinNewsletter />
 
         <div className='h-20' />
 

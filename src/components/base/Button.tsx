@@ -6,20 +6,36 @@ const styles: { [key: string]: CSSProperties } = {
     container: {
         ...bebas.style,
         fontSize: 20,
+        cursor: 'pointer',
+    },
+    variantRed: {
         color: colors.white,
         background: colors.red,
-        cursor: 'pointer',
+    },
+    variantBlue: {
+        color: colors.black,
+        background: colors.blue,
     }
 }
+
+type Variant = 'red' | 'blue';
 
 type ButtonProps = {
     text: string;
     href?: string;
+    className?: string;
+    variant?: Variant;
 }
 
-export const Button = ({text, href} : ButtonProps) => {
+export const Button = ({text, href, className, variant} : ButtonProps) => {
+    const variantStyle = variant === 'blue' ? styles.variantBlue : styles.variantRed;
+
     return (
-        <a href={href} className="block w-fit pt-0.5 pb-0.5 ps-3 pe-3" style={styles.container}>
+        <a 
+            href={href} 
+            className={`block w-fit pt-0.5 pb-0.5 ps-3 pe-3 ${className}`} 
+            style={{...styles.container, ...variantStyle}}
+        >
             {text}
         </a>
     )
