@@ -29,7 +29,7 @@ export const JoinNewsletter = () => {
 
             <span style={styles.title}>Join our newsletter</span>
 
-            <span style={styles.subtitle}>We e won't spam you, pinky swear.</span>
+            <span style={styles.subtitle}>We won't spam you, pinky swear.</span>
 
             <Button text="Subscribe" variant="blue" className="mt-12" href="http://eepurl.com/itaOA2" />
         </div>
