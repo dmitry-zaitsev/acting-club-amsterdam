@@ -32,7 +32,11 @@ export const Premiere = () => {
                     The Skin of Our Teeth
                 </div>
 
-                <Button text="Get Tickets" href="https://www.eventbrite.nl/e/tickets-the-skin-of-our-teeth-by-aca-645011716407" />
+                <Button 
+                    text="Get Tickets" 
+                    openInNewTab={true}
+                    href="https://www.eventbrite.nl/e/tickets-the-skin-of-our-teeth-by-aca-645011716407" 
+                />
             </div>
         </div>
     )

@@ -31,7 +31,13 @@ export const JoinNewsletter = () => {
 
             <span style={styles.subtitle}>We won't spam you, pinky swear.</span>
 
-            <Button text="Subscribe" variant="blue" className="mt-12" href="http://eepurl.com/itaOA2" />
+            <Button 
+                text="Subscribe" 
+                variant="blue" 
+                className="mt-12" 
+                href="http://eepurl.com/itaOA2" 
+                openInNewTab={true}
+            />
         </div>
     )
 }

@@ -39,7 +39,11 @@ export const WhereWhen = () => {
 
             <Item title="When" subtitle="JULY 16th 2023. 19:30 - 22:30" />
 
-            <Button text="Get Tickets" href="https://www.eventbrite.nl/e/tickets-the-skin-of-our-teeth-by-aca-645011716407" />
+            <Button 
+                text="Get Tickets" 
+                openInNewTab={true}
+                href="https://www.eventbrite.nl/e/tickets-the-skin-of-our-teeth-by-aca-645011716407" 
+            />
         </div>
     )
 }

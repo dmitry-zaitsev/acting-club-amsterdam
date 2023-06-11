@@ -42,13 +42,13 @@ export const Footer = () => {
             </div>
 
             <div className="flex flex-row pb-2 items-center">
-                <a href="https://www.instagram.com/habatelier/" style={styles.designedBy}>
+                <a href="https://www.instagram.com/habatelier/" target="_blank" style={styles.designedBy}>
                     Designed by @habatelier
                 </a>
 
                 <div className="flex-grow" />
 
-                <a href="https://www.instagram.com/actingclubamsterdam/">
+                <a href="https://www.instagram.com/actingclubamsterdam/" target="_blank">
                     <Instagram size={16} />
                 </a>
             </div>

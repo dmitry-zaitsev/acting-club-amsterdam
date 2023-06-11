@@ -50,7 +50,7 @@ export const AboutUs = () => {
             </span>
 
             <span style={styles.description}>
-                <a className="link" href="https://www.instagram.com/actingclubamsterdam/">Follow us on Instagram</a> to stay up to date with our latest news and productions.
+                <a className="link" target="_blank" href="https://www.instagram.com/actingclubamsterdam/">Follow us on Instagram</a> to stay up to date with our latest news and productions.
             </span>
 
             <div className="h-16" />

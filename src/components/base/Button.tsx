@@ -25,14 +25,16 @@ type ButtonProps = {
     href?: string;
     className?: string;
     variant?: Variant;
+    openInNewTab?: boolean;
 }
 
-export const Button = ({text, href, className, variant} : ButtonProps) => {
+export const Button = ({text, href, className, variant, openInNewTab} : ButtonProps) => {
     const variantStyle = variant === 'blue' ? styles.variantBlue : styles.variantRed;
 
     return (
         <a 
             href={href} 
+            target={openInNewTab ? '_blank' : '_self'}
             className={`block w-fit pt-0.5 pb-0.5 ps-3 pe-3 ${className}`} 
             style={{...styles.container, ...variantStyle}}
         >
