@@ -37,12 +37,12 @@ export const WhereWhen = () => {
         <div className={`flex flex-col gap-12 pt-14 pb-14 ${tailwindStyles.pageComponent}`} style={styles.container}>
             <Item title="Where" subtitle="badhuistheater, Amsterdam" />
 
-            <Item title="When" subtitle="JULY 16th 2023. 19:30 - 22:30" />
+            <Item title="When" subtitle="NOVEMBER 4th and NOVEMBER 5th 2023" />
 
             <Button 
-                text="Get Tickets" 
+                text="Tickets coming soon" 
                 openInNewTab={true}
-                href="https://www.eventbrite.nl/e/tickets-the-skin-of-our-teeth-by-aca-645011716407" 
+                href="http://eepurl.com/itaOA2" 
             />
         </div>
     )

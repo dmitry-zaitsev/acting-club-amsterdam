@@ -25,7 +25,7 @@ export const Premiere = () => {
         <div className={`flex justify-center items-center ${tailwindStyles.pageComponent}`} style={styles.container}>
             <div className="w-fit h-fit flex flex-col">
                 <div style={styles.subtitle}>
-                    July 16th. badhuistheater, AMSTERDAM
+                    November 4th and 5th. Badhuistheater, AMSTERDAM
                 </div>
 
                 <div style={styles.title}>
@@ -33,9 +33,9 @@ export const Premiere = () => {
                 </div>
 
                 <Button 
-                    text="Get Tickets" 
+                    text="I want a ticket" 
                     openInNewTab={true}
-                    href="https://www.eventbrite.nl/e/tickets-the-skin-of-our-teeth-by-aca-645011716407" 
+                    href="http://eepurl.com/itaOA2" 
                 />
             </div>
         </div>
