@@ -58,40 +58,36 @@ const SkinOfOurTeeth = () => {
             <div className="flex flex-col mt-8 justify-center">
                 <ImageGallery items={[
                     {
-                        original: '/skinOfOurTeeth/img1.jpg',
-                        thumbnail: '/skinOfOurTeeth/img1.thumb.jpg',
-                    },
-                    {
-                        original: '/skinOfOurTeeth/img2.jpg',
+                        original: '/skinOfOurTeeth/img2.thumb.jpg',
                         thumbnail: '/skinOfOurTeeth/img2.thumb.jpg',
                     },
                     {
-                        original: '/skinOfOurTeeth/img3.jpg',
+                        original: '/skinOfOurTeeth/img3.thumb.jpg',
                         thumbnail: '/skinOfOurTeeth/img3.thumb.jpg',
                     },
                     {
-                        original: '/skinOfOurTeeth/img4.jpg',
+                        original: '/skinOfOurTeeth/img4.thumb.jpg',
                         thumbnail: '/skinOfOurTeeth/img4.thumb.jpg',
                     },
                     {
-                        original: '/skinOfOurTeeth/img5.jpg',
+                        original: '/skinOfOurTeeth/img5.thumb.jpg',
                         thumbnail: '/skinOfOurTeeth/img5.thumb.jpg',
                     },
                     {
-                        original: '/skinOfOurTeeth/img6.jpg',
-                        thumbnail: '/skinOfOurTeeth/img6.thumb.jpg',
-                    },
-                    {
-                        original: '/skinOfOurTeeth/img7.jpg',
+                        original: '/skinOfOurTeeth/img7.thumb.jpg',
                         thumbnail: '/skinOfOurTeeth/img7.thumb.jpg',
                     },
                     {
-                        original: '/skinOfOurTeeth/img8.jpg',
+                        original: '/skinOfOurTeeth/img8.thumb.jpg',
                         thumbnail: '/skinOfOurTeeth/img8.thumb.jpg',
                     },
                     {
-                        original: '/skinOfOurTeeth/img9.jpg',
+                        original: '/skinOfOurTeeth/img9.thumb.jpg',
                         thumbnail: '/skinOfOurTeeth/img9.thumb.jpg',
+                    },
+                    {
+                        original: '/skinOfOurTeeth/img6.thumb.jpg',
+                        thumbnail: '/skinOfOurTeeth/img6.thumb.jpg',
                     },
                 ]} />
             </div>
