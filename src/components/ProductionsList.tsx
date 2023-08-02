@@ -91,6 +91,9 @@ const SkinOfOurTeeth = () => {
                     },
                 ]} />
             </div>
+            <div className="mt-4 mb-12">
+                Photos are a courtesy of <a href="https://www.instagram.com/yuphotolife/" target="_blank">@yuphotolife</a>
+            </div>
         </div>
     )
 }
