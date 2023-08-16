@@ -24,7 +24,7 @@ export const PlayInfo = () => {
         <div className={`flex flex-row flex-wrap md:flex-nowrap gap-14 ${tailwindStyles.pageComponent}`} style={styles.container}>
             <Image
                 className="h-fit mt-2"
-                src="/poster_skin_of_our_teeth.jpg" 
+                src="/skinOfOurTeeth/poster.jpeg" 
                 alt="Skin of our teeth" 
                 width={255} 
                 height={378} 
