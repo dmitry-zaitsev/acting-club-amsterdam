@@ -32,6 +32,10 @@ export const Navbar = ({ showLogo } : NavbarProps) => {
 
             <div className="flex-grow" />
 
+            <Link href="/tickets">
+                Tickets
+            </Link>
+
             <Link href="/productions">
                 Productions
             </Link>
