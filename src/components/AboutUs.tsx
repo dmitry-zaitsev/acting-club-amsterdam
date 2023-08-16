@@ -52,7 +52,7 @@ export const AboutUs = () => {
             </span>
 
             <p style={styles.description}>
-                For any questions or inquiries, please <a className="link" href="mailto:dmitry.zaicew@gmail.com">contact us vis Email</a>
+                For any questions or inquiries, please <a className="link" href="mailto:contact@actingclubamsterdam.nl">contact us vis Email</a>
             </p>
         </div>
     )
