@@ -35,31 +35,40 @@ const styles: { [key: string]: CSSProperties } = {
 
 export const TicketsDateSelector = () => {
     return (
-        <div className={`flex flex-col ${tailwindStyles.pageComponent}`} style={styles.container}>
-            <span style={styles.pageTitle}>
-                Tickets
-            </span>
-
-            <div className="flex flex-col mt-6 gap-3">
-                <span style={styles.playTitle}>
-                    The Skin of Our Teeth
+        <div className="w-full flex flex-col items-center">
+            <div className={`flex flex-col ${tailwindStyles.pageComponent}`} style={styles.container}>
+                <span style={styles.pageTitle}>
+                    Tickets
                 </span>
 
-                <span style={styles.playSubtitle}>
-                    badhuistheater, AMSTERDAM
-                </span>
+                <div className="flex flex-col mt-6 gap-3">
+                    <span style={styles.playTitle}>
+                        The Skin of Our Teeth
+                    </span>
 
-                <Button 
-                    text="November 4th" 
-                    openInNewTab={true}
-                    href={ticketUrls.skinOfOurTeeth.november.fourth}
-                />
+                    <span style={styles.playSubtitle}>
+                        badhuistheater, AMSTERDAM
+                    </span>
 
-                <Button 
-                    text="November 5th" 
-                    openInNewTab={true}
-                    href={ticketUrls.skinOfOurTeeth.november.fifth}
-                />
+                    <Button 
+                        text="November 4th" 
+                        openInNewTab={true}
+                        href={ticketUrls.skinOfOurTeeth.november.fourth}
+                    />
+
+                    <Button 
+                        text="November 5th" 
+                        openInNewTab={true}
+                        href={ticketUrls.skinOfOurTeeth.november.fifth}
+                    />
+                </div>
+            </div>
+
+            <div className="w-full mt-6">
+                <img 
+                    src="/skinOfOurTeeth/img3.wide.jpg" 
+                    alt="The Skin of Our Teeth photo" 
+                    className="w-full h-auto" />
             </div>
         </div>
     )
