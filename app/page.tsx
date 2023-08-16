@@ -5,6 +5,7 @@ import { PlayInfo } from '@/src/components/PlayInfo'
 import { WhereWhen } from '@/src/components/WhereWhen'
 import { Footer } from '@/src/components/Footer'
 import { JoinNewsletter } from '@/src/components/JoinNewsletter'
+import { HeroPhoto } from '@/src/components/HeroPhoto'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero />
         <Premiere />
         <PlayInfo />
+        {/* <HeroPhoto /> */}
         <WhereWhen />
         <JoinNewsletter />
 

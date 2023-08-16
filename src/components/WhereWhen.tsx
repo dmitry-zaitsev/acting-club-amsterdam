@@ -34,15 +34,17 @@ const Item = ({title, subtitle} : {title: string, subtitle: string}) => {
 
 export const WhereWhen = () => {
     return (
-        <div className={`flex flex-col gap-12 pt-14 pb-14 ${tailwindStyles.pageComponent}`} style={styles.container}>
-            <Item title="Where" subtitle="badhuistheater, Amsterdam" />
+        <div className="w-full h-full mt-12 mb-12 flex justify-center bg-cover bg-blend-overlay bg-gray-700 bg-center bg-[url('/skinOfOurTeeth/mainWide.jpg')]">
+            <div className={`flex flex-col gap-12 pt-14 pb-14 ${tailwindStyles.pageComponent}`} style={styles.container}>
+                <Item title="Where" subtitle="badhuistheater, Amsterdam" />
 
-            <Item title="When" subtitle="NOVEMBER 4th and NOVEMBER 5th 2023" />
+                <Item title="When" subtitle="NOVEMBER 4th and NOVEMBER 5th 2023" />
 
-            <Button 
-                text="Get tickets" 
-                href="/tickets" 
-            />
+                <Button 
+                    text="Get tickets" 
+                    href="/tickets" 
+                />
+            </div>
         </div>
     )
 }
