@@ -40,9 +40,8 @@ export const WhereWhen = () => {
             <Item title="When" subtitle="NOVEMBER 4th and NOVEMBER 5th 2023" />
 
             <Button 
-                text="Tickets coming soon" 
-                openInNewTab={true}
-                href="http://eepurl.com/itaOA2" 
+                text="Get tickets" 
+                href="/tickets" 
             />
         </div>
     )

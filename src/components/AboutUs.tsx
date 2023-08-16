@@ -2,7 +2,6 @@ import { CSSProperties } from "react"
 import { tailwindStyles } from "../style/styles"
 import { colors } from "../style/colors"
 import { actor, bebas } from "../style/fonts"
-import Image from "next/image"
 
 const styles: { [key: string]: CSSProperties } = {
     container: {

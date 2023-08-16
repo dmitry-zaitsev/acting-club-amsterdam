@@ -33,9 +33,8 @@ export const Premiere = () => {
                 </div>
 
                 <Button 
-                    text="I want a ticket" 
-                    openInNewTab={true}
-                    href="http://eepurl.com/itaOA2" 
+                    text="Get tickets" 
+                    href="/tickets" 
                 />
             </div>
         </div>
