@@ -38,7 +38,7 @@ export const WhereWhen = () => {
             <div className={`flex flex-col gap-12 pt-14 pb-14 ${tailwindStyles.pageComponent}`} style={styles.container}>
                 <Item title="Where" subtitle="badhuistheater, Amsterdam" />
 
-                <Item title="When" subtitle="NOVEMBER 4th and NOVEMBER 5th 2023" />
+                <Item title="When" subtitle="NOVEMBER 4th and NOVEMBER 5th 2023, 19:30" />
 
                 <Button 
                     text="Get tickets" 

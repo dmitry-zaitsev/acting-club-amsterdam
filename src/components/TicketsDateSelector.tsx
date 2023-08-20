@@ -51,13 +51,13 @@ export const TicketsDateSelector = () => {
                     </span>
 
                     <Button 
-                        text="November 4th" 
+                        text="November 4th, 19:30" 
                         openInNewTab={true}
                         href={ticketUrls.skinOfOurTeeth.november.fourth}
                     />
 
                     <Button 
-                        text="November 5th" 
+                        text="November 5th, 19:30" 
                         openInNewTab={true}
                         href={ticketUrls.skinOfOurTeeth.november.fifth}
                     />
