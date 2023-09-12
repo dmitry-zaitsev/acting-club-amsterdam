@@ -38,6 +38,8 @@ export const Navbar = ({ showLogo }: NavbarProps) => {
 
       <Link href="/productions">Productions</Link>
 
+      <Link href="/courses">Courses</Link>
+
       <Link href="/about">Who we are</Link>
     </div>
   );
