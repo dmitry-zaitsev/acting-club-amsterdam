@@ -28,7 +28,7 @@ export const AboutUs = () => {
 
       <p style={styles.description}>
         We are Acting Club Amsterdam (or ACA for short), a group of actors and
-        actresses from over 7 different nationalities united by their love for
+        actresses from over 6 different nationalities united by their love for
         acting and theatre. Despite Amsterdam being such a diverse and
         multicultural city, we noticed that the English theatre was
         underrepresented. We decided to change that by founding our own theatre
