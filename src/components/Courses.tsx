@@ -80,7 +80,7 @@ export const Courses = () => {
 
         <ul className="list-disc ps-4">
           <li>October 23rd (Monday), from 19:30 to 21:30</li>
-          <li>October 24rd (Tuesday), from 19:00 to 21:00</li>
+          <li>October 24th (Tuesday), from 19:00 to 21:00</li>
         </ul>
 
         <h2 style={styles.h2}>price</h2>
