@@ -3,6 +3,7 @@ import { tailwindStyles } from '../style/styles';
 import { CSSProperties } from 'react';
 import { actor, bebas } from '../style/fonts';
 import { colors } from '../style/colors';
+import { Button } from './base/Button';
 
 const styles: { [key: string]: CSSProperties } = {
   container: {
@@ -37,20 +38,21 @@ export const PlayInfo = () => {
         <span style={styles.title}>About the Play</span>
 
         <span style={styles.description}>
-          Absurd Farce in English by Thornton Wilder. The play, features the
-          eccentric Antrobus family in an Ice Age , Modernity and World Wars.
+          The Ice Age, plagues, wars, earthquakes and dinosaurs - humanity will
+          persevere through it all, even if only by the skin of our teeth. At
+          least that is what Thornton Wilder, three times winner of the Pulitzer
+          Prize, wants you to believe in his absurd comedic work “The Skin of
+          Our Teeth”.
           <br />
           <br />
-          Performed first in 1942. America was on the verge of War. Thornton
-          Wilder created an Absurd and Comic reality on Stage. During The First
-          Act , a block of ice is making its way from Canada, marking the
-          beginning of an imminent ice age. This sets the stage for stress and
-          brings the arrival of refugees needing safety. Wilder introduces the
-          audience to George Antrobus and his wife Maggie, their children Henry
-          and Gladys, and their attractive maid Lily Sabina Fairweather in a
-          middle-class New Jersey town called Excelsior. George is an inventor.
-          The characters get lost in their Absurd realities.
+          The theatrical play follows the story of a typical American family,
+          the Antrobuses from New Jersey, as they live their daily lives through
+          world-shattering cataclysmic events. You know, the usual life.
         </span>
+
+        <div className="mt-4">
+          <Button text="See Photos" href="/productions" />
+        </div>
       </div>
     </div>
   );
