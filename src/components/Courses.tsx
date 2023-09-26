@@ -1,8 +1,11 @@
+'use client';
+
 import { CSSProperties } from 'react';
 import { actor, bebas } from '../style/fonts';
 import { tailwindStyles } from '../style/styles';
 import { colors } from '../style/colors';
 import { Button } from './base/Button';
+import ImageGallery from 'react-image-gallery';
 
 const styles: { [key: string]: CSSProperties } = {
   h1: {
@@ -104,6 +107,33 @@ export const Courses = () => {
           text="Sign me up!"
           openInNewTab={true}
           href={'https://forms.gle/yKEzusjHEsLfui1r5'}
+        />
+      </div>
+
+      <div className="flex flex-col mt-12 justify-center">
+        <ImageGallery
+          items={[
+            {
+              original: '/course/course1.jpg',
+              thumbnail: '/course/course1.jpg',
+            },
+            {
+              original: '/course/course2.jpg',
+              thumbnail: '/course/course2.jpg',
+            },
+            {
+              original: '/course/course3.jpg',
+              thumbnail: '/course/course3.jpg',
+            },
+            {
+              original: '/course/course4.jpg',
+              thumbnail: '/course/course4.jpg',
+            },
+            {
+              original: '/course/course5.jpg',
+              thumbnail: '/course/course5.jpg',
+            },
+          ]}
         />
       </div>
     </div>
