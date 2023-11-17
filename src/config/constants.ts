@@ -8,3 +8,5 @@ export const ticketUrls = {
     },
   },
 };
+
+export const newsletterUrl = 'http://eepurl.com/itaOA2';

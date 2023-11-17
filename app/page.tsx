@@ -6,16 +6,14 @@ import { WhereWhen } from '@/src/components/WhereWhen';
 import { Footer } from '@/src/components/Footer';
 import { JoinNewsletter } from '@/src/components/JoinNewsletter';
 import { HeroPhoto } from '@/src/components/HeroPhoto';
+import { UpcomingProductions } from '@/src/components/UpcomingProductions';
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center pt-1 pb-4 gap-3">
       <Navbar />
       <Hero />
-      <Premiere />
-      <PlayInfo />
-      {/* <HeroPhoto /> */}
-      <WhereWhen />
+      <UpcomingProductions />
       <JoinNewsletter />
 
       <div className="h-20" />

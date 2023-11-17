@@ -3,7 +3,7 @@ import { tailwindStyles } from '../style/styles';
 import { actor, bebas } from '../style/fonts';
 import { colors } from '../style/colors';
 import { Button } from './base/Button';
-import { ticketUrls } from '../config/constants';
+import { newsletterUrl, ticketUrls } from '../config/constants';
 
 const styles: { [key: string]: CSSProperties } = {
   container: {
@@ -42,23 +42,17 @@ export const TicketsDateSelector = () => {
       >
         <span style={styles.pageTitle}>Tickets</span>
 
-        <div className="flex flex-col mt-6 gap-3">
-          <span style={styles.playTitle}>The Skin of Our Teeth</span>
+        <p>
+          We do not have any scheduled performances at this moment. Join our
+          newsletter to be the first to know when we have something new!
+        </p>
 
-          <span style={styles.playSubtitle}>badhuistheater, AMSTERDAM</span>
-
-          <Button
-            text="November 4th, 19:30"
-            openInNewTab={true}
-            href={ticketUrls.skinOfOurTeeth.november.fourth}
-          />
-
-          <Button
-            text="November 5th, 19:30"
-            openInNewTab={true}
-            href={ticketUrls.skinOfOurTeeth.november.fifth}
-          />
-        </div>
+        <Button
+          text="Subscribe"
+          variant="blue"
+          className="mt-4"
+          href={newsletterUrl}
+        />
       </div>
 
       <div className="w-full mt-6">

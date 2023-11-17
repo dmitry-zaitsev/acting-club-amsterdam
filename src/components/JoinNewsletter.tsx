@@ -3,6 +3,7 @@ import { tailwindStyles } from '../style/styles';
 import { actor, bebas } from '../style/fonts';
 import { colors } from '../style/colors';
 import { Button } from './base/Button';
+import { newsletterUrl } from '../config/constants';
 
 const styles: { [key: string]: CSSProperties } = {
   container: {
@@ -36,8 +37,8 @@ export const JoinNewsletter = () => {
       <Button
         text="Subscribe"
         variant="blue"
-        className="mt-12"
-        href="http://eepurl.com/itaOA2"
+        className="mt-4"
+        href={newsletterUrl}
         openInNewTab={true}
       />
     </div>
