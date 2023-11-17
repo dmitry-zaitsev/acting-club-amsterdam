@@ -1,12 +1,10 @@
 import { Hero } from '@/src/components/Hero';
 import { Navbar } from '../src/components/Navbar';
-import { Premiere } from '@/src/components/Premiere';
-import { PlayInfo } from '@/src/components/PlayInfo';
-import { WhereWhen } from '@/src/components/WhereWhen';
 import { Footer } from '@/src/components/Footer';
 import { JoinNewsletter } from '@/src/components/JoinNewsletter';
 import { HeroPhoto } from '@/src/components/HeroPhoto';
 import { UpcomingProductions } from '@/src/components/UpcomingProductions';
+import { CourseBanner } from '@/src/components/CourseBanner';
 
 export default function Home() {
   return (
@@ -14,6 +12,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <UpcomingProductions />
+      <CourseBanner />
+      <HeroPhoto />
       <JoinNewsletter />
 
       <div className="h-20" />
