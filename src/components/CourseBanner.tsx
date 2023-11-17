@@ -13,6 +13,7 @@ const styles: { [key: string]: CSSProperties } = {
     ...bebas.style,
     fontSize: 71,
     color: colors.blue,
+    lineHeight: 1.1,
   },
   description: {
     ...actor.style,
