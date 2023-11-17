@@ -10,3 +10,5 @@ export const ticketUrls = {
 };
 
 export const newsletterUrl = 'http://eepurl.com/itaOA2';
+
+export const coursesWaitlist = 'https://forms.gle/Z8eovGiuYiMabM2b9';

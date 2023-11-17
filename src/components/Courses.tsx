@@ -6,6 +6,7 @@ import { tailwindStyles } from '../style/styles';
 import { colors } from '../style/colors';
 import { Button } from './base/Button';
 import ImageGallery from 'react-image-gallery';
+import { coursesWaitlist } from '../config/constants';
 
 const styles: { [key: string]: CSSProperties } = {
   h1: {
@@ -53,7 +54,7 @@ export const Courses = () => {
           text="Join the waitlist"
           openInNewTab={true}
           variant="blue"
-          href={'http://eepurl.com/itaOA2'}
+          href={coursesWaitlist}
         />
       </div>
 
