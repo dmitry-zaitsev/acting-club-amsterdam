@@ -46,7 +46,7 @@ export const Courses = () => {
 
         <p>
           Our October course is already full, but we are planning to start a new
-          one in 2024! Sign up to our newsletter to be the first to know when we
+          one in 2024! Sign up to our waitlist to be the first to know when we
           open the registrations.
         </p>
 

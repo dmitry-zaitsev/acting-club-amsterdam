@@ -30,10 +30,10 @@ export const CourseBanner = () => {
       <span style={styles.title}>Acting Courses</span>
 
       <p style={styles.description}>
-        Always dreamed about being on stage but didn't know where to start?
-        Acting Club Amsterdam offers acting and improv courses for various
-        levels: from complete beginners to more experienced actors who want to
-        shake off the rust.
+        Always dreamed of being on stage but don't know where to start? Acting
+        Club Amsterdam offers acting and improv courses for various levels: from
+        complete beginners to more experienced actors who want to shake off the
+        dust.
       </p>
 
       <Button

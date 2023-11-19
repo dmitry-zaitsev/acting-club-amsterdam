@@ -36,8 +36,8 @@ export const UpcomingProductions = () => {
       </p>
 
       <Button
-        text="Past Productions"
-        href="/productions"
+        text="Subscribe"
+        href={newsletterUrl}
         variant="red"
         className="mt-4"
       />
