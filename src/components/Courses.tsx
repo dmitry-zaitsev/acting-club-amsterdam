@@ -6,7 +6,6 @@ import { tailwindStyles } from '../style/styles';
 import { colors } from '../style/colors';
 import { Button } from './base/Button';
 import ImageGallery from 'react-image-gallery';
-import { coursesWaitlist } from '../config/constants';
 
 const styles: { [key: string]: CSSProperties } = {
   h1: {
@@ -19,6 +18,9 @@ const styles: { [key: string]: CSSProperties } = {
     fontSize: 32,
     color: colors.white,
     marginBottom: -16,
+  },
+  red: {
+    color: colors.red,
   },
   container: {
     ...actor.style,
@@ -42,19 +44,101 @@ export const Courses = () => {
           have seen them play!).
         </p>
 
-        <h2 style={styles.h2}>Next course</h2>
+        <p>This season we are offering 2 different courses:</p>
+
+        <h2 style={{ ...styles.h2, ...styles.red }}>Beginners Course</h2>
+
+        <p>Throughout the course you will:</p>
+
+        <ul className="list-disc ps-4">
+          <li>
+            Practice and perform a few small plays in a safe and supportive
+            environment.
+          </li>
+          <li>
+            Learn how to “be” a character instead of simply memorising the
+            lines.
+          </li>
+          <li>Develop your voice and build a stage presence.</li>
+          <li>
+            Do a lot of improv and practice the famous “Yes, and...” rule.
+          </li>
+          <li>
+            Forget about the mundane, have fun and meet a lot of likeminded
+            people!
+          </li>
+        </ul>
+
+        <h2 style={styles.h2}>how does it work</h2>
+
+        <ul className="list-disc ps-4">
+          <li>Location: Cliffordstudio, Amsterdam</li>
+          <li>8 lessons, one lesson per week</li>
+          <li>Groups from 6 to 10 people</li>
+          <li>Tuesdays, from March 12th to April 30th</li>
+          <li>2 hour classes, from 19:30 until 21:30</li>
+        </ul>
+
+        <h2 style={styles.h2}>price</h2>
+
+        <ul className="list-disc ps-4">
+          <li>220 Euro for the full course (incl. BTW)</li>
+          <li>
+            Not sure whether it is for you? Join the first trial lesson for just
+            20 Euro.
+          </li>
+        </ul>
+
+        <h2 style={{ ...styles.h2, ...styles.red }}>Intermediate Course</h2>
 
         <p>
-          Our October course is already full, but we are planning to start a new
-          one in 2024! Sign up to our waitlist to be the first to know when we
-          open the registrations.
+          Are you ready to polish your acting skills and shine bright on stage?
+        </p>
+        <p>
+          This 8-weeks intermediate course aims to combine multiple acting
+          techniques as well as psychological tools to equip you with skills to:
+        </p>
+
+        <ul className="list-disc ps-4">
+          <li>Analyze scripts & read between the lines,</li>
+          <li>Build memorable characters in your authentic way,</li>
+          <li>Develop your voice and build a stage presence.</li>
+          <li>
+            Find out things about yourself through your character’s journey
+          </li>
+        </ul>
+
+        <h2 style={styles.h2}>how does it work</h2>
+
+        <ul className="list-disc ps-4">
+          <li>Location: Cliffordstudio, Amsterdam</li>
+          <li>8 lessons, one lesson per week</li>
+          <li>Groups from 6 to 10 people</li>
+          <li>Mondays, from March 18th to May 6th</li>
+          <li>2 hour classes, from 19:00 until 21:00</li>
+        </ul>
+
+        <h2 style={styles.h2}>price</h2>
+
+        <ul className="list-disc ps-4">
+          <li>220 Euro for the full course (incl. BTW)</li>
+          <li>
+            Not sure whether it is for you? Join the first trial lesson for just
+            20 Euro.
+          </li>
+        </ul>
+
+        <h2 style={{ ...styles.h2, ...styles.red }}>join now</h2>
+
+        <p>
+          Does that all sound interesting? Just fill out the form and we will
+          reach back to you in no time!
         </p>
 
         <Button
-          text="Join the waitlist"
+          text="Sign me up!"
           openInNewTab={true}
-          variant="blue"
-          href={coursesWaitlist}
+          href={'https://forms.gle/DiHodSst2Mto1JEp9'}
         />
       </div>
 
